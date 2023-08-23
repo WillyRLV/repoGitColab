@@ -1,0 +1,37 @@
+==para iniciar un repositorio git==
+git init
+
+==para cambiar de master a main==
+
+git branch -m main
+
+== para hacer reconocer cambios o archivos nuevos en tu repo==
+
+git add .
+
+==para ponerle un nombre a la accion (commit)
+
+git commit -m "nombre que desees"
+
+==para verificar el estado de los datos==
+
+git status
+
+==para vincular tu cuenta de github a git y poder gestionar tus proyectos
+
+git remote add origin https//github.com/turepo.git
+
+== si estas trabajando con repositrio remoto (github)
+
+-git push origin main
+
+///////////////==============crear ramas=========//////////////////////
+
+git checkout -b nombre_rama
+
+==los mis pasos anterioriores cuando deseas trabajar con nuesvos archivos==
+-git add .
+-git commit -m "nombre del cambio" -> "cuando es en ramas recomedable ponerle tu nombre"
+git push origin nombre_rama
+
+////////////////////////////////////////////////////////////////////////////////////
